@@ -168,5 +168,9 @@ public class Products {
 	public String getQuantityValue() {
 	    return driver.findElement(By.id("quantity")).getAttribute("value");
 	}
+	
+	public void printingProductName() {
+		System.out.println("test");
+	}
 
 }
